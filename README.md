@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe
+
+[react.dev/learn/tutorial-tic-tac-toe](https://react.dev/learn/tutorial-tic-tac-toe)
+
+## **create-react-app** Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -97,15 +101,15 @@ PS D:\> git config --list
 ```shell
 gh auth status
 gh auth login
-gh repo create tictactoc --private
+gh repo create tictactoc --public
 ```
 
 ```shell
 git add *
 git commit -m "starting first commit"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/sorryb/tictactoc.git
-git push -u origin main
+git push -u origin master
 
 git status
 ```
