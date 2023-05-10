@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+```shell
+npx create-react-app  tic-tac-toc
+
+cd  tic-tac-toc
+```
+
+## React Dev Tools
+
+For Chrome and Edge add **Dev Tool** as a *Extension* and chek it with *F12*.
+
+Otherwise:
+
+```shell
+npm install -g react-devtools
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +84,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Git Commands
+
+```shell
+        git init
+PS D:\> git config user.email "sxxxx@xxxx.com"
+PS D:\> git config user.name "xxxxx"
+PS D:\> git config --list
+```
+
+```shell
+gh auth status
+gh auth login
+gh repo create tictactoc --private
+```
+
+```shell
+git add *
+git commit -m "starting first commit"
+git branch -M main
+git remote add origin https://github.com/sorryb/tictactoc.git
+git push -u origin main
+
+git status
+```
