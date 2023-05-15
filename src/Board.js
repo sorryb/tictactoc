@@ -20,10 +20,8 @@ export default function Board()
 
     function handleClick(i)
     {
-        if(squares[i])
+        if(squares[i] || HaveAWinner(squares))
             return;
-        if(HaveAWinner(squares))
-        return;
 
         const nextSquares = squares.slice();
         nextSquares[i] = isXNext ? 'X': 'O';
@@ -36,7 +34,6 @@ export default function Board()
         allPossibleLines.forEach(element => {
             if(squaresToCheck[element[0]]  && (squaresToCheck[element[0]] === squaresToCheck[element[1]] ) && (squaresToCheck[element[0]] === squaresToCheck[element[2]]))
             {
-                alert('We have a winner ' + squaresToCheck[element[0]])
                 return true;
             }
             else
