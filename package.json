@@ -2,7 +2,7 @@
   "name": "tic-tac-toc",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://sorryb.github.io",
+  "homepage": "https://sorryb.github.io/tictactoc/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
