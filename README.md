@@ -92,7 +92,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Git Commands
 
 ```shell
-        git init
+PS D:\> git init
 PS D:\> git config user.email "sxxxx@xxxx.com"
 PS D:\> git config user.name "xxxxx"
 PS D:\> git config --list
