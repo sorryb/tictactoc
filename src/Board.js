@@ -32,13 +32,17 @@ export default function Board()
     function HaveAWinner(squaresToCheck)
     {
         allPossibleLines.forEach(element => {
-            if(squaresToCheck[element[0]]  && (squaresToCheck[element[0]] === squaresToCheck[element[1]] ) && (squaresToCheck[element[0]] === squaresToCheck[element[2]]))
+            if(squaresToCheck[element[0]]  
+                && (squaresToCheck[element[0]] === squaresToCheck[element[1]] ) 
+                && (squaresToCheck[element[0]] === squaresToCheck[element[2]]))
             {
-                return true;
+                var winner = squaresToCheck[element[0]];
+                alert('Este '+winner);
+                return winner;
             }
             else
             {
-                 return false;
+                 return null;
             }
         });
     }
