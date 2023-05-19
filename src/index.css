@@ -52,7 +52,7 @@ ul {
 
 body {
   font-family: sans-serif;
-  margin: 20px;
+  margin: calc(100% /4);
   padding: 0;
 }
 
@@ -83,6 +83,13 @@ body {
 .game {
   display: flex;
   flex-direction: row;
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  
 }
 
 .game-info {
