@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-The  game is live at [X vs 0]([https://react.dev/learn/tutorial-tic-tac-toe](https://sorryb.github.io/tictactoc/)
+The  game is live at [X vs 0](https://sorryb.github.io/tictactoc/)
 
 [react.dev/learn/tutorial-tic-tac-toe](https://react.dev/learn/tutorial-tic-tac-toe)
 
